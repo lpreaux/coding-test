@@ -1,3 +1,3 @@
 export const environment = {
-  CLERK_PUBLISHABLE_KEY: 'change_me',
+  CLERK_PUBLISHABLE_KEY: process.env.CLERK_PUBLISHABLE_KEY,
 };
