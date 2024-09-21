@@ -19,7 +19,6 @@ docker image tag IMAGE_NAME[:TAG] ghcr.io/NAMESPACE/IMAGE_NAME[:TAG]
 docker push ghcr.io/NAMESPACE/IMAGE_NAME[:TAG]
 ```
 
-
 **Exemple avec `maven-project-test` :**
 
 ```bash
@@ -31,7 +30,6 @@ On peut vérifier l'image construite avec la commande suivante :
 ```bash
 docker image list maven-project-test
 ```
-
 
 ```bash
 docker image tag maven-project-test:1.0.0 ghcr.io/lpreaux/maven-project-test:1.0.0

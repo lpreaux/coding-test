@@ -7,5 +7,5 @@ Voici un petit projet d'exemple maven pour tester l'utilisation du container `ma
 Pour exécuter les tests du projet avec le container `maven-project-test` exécuter la commande suivante :
 
 ```bash
-docker run -v ./sample-project:/workdir $(docker build -q -f ../../../dockerfiles/maven-project-test.Dockerfile .) 
+docker run -v ./sample-project:/workdir $(docker build -q -f ../../../dockerfiles/maven-project-test.Dockerfile .)
 ```

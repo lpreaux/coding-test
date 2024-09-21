@@ -1,0 +1,14 @@
+<header class="flex justify-between">
+  <a routerLink="/">Coding Test</a>
+  @if (activeSession$()) {
+    <clerk-user-button></clerk-user-button>
+  } @else {
+    <div>
+      <a routerLink="/sign-in">Se connecter</a>
+      <a routerLink="/sign-up">S'inscrire</a>
+    </div>
+  }
+</header>
+<main class="main-content">
+  <ng-content></ng-content>
+</main>
